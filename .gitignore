@@ -1,0 +1,12 @@
+# Vivado xsim artifacts — regenerate with sim/vivado-xsim/run_xsim.bat
+xsim.dir/
+*.jou
+*.log
+*.pb
+*.wdb
+*.vcd
+xsim*.tcl
+# OS / editor
+Thumbs.db
+Desktop.ini
+.vscode/
