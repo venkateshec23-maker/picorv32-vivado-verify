@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# xsim v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Oct  7 22:58:57 2026
+# Process ID: 23936
+# Current directory: C:/Users/venka/picorv32-vivado-verify/sim/vivado-xsim/work
+# Command line: xsim.exe -log sim_fact.log -mode tcl -source {xsim.dir/picorv32_xsim_sim/xsim_script.tcl}
+# Log file: C:/Users/venka/picorv32-vivado-verify/sim/vivado-xsim/work/sim_fact.log
+# Journal file: C:/Users/venka/picorv32-vivado-verify/sim/vivado-xsim/work\xsim.jou
+#-----------------------------------------------------------
+source xsim.dir/picorv32_xsim_sim/xsim_script.tcl
+# xsim {picorv32_xsim_sim} -testplusarg prog_fact -autoloadwcfg -tclbatch {C:/Users/venka/picorv32-vivado-verify/sim/vivado-xsim/work/../run_xsim.tcl}
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source C:/Users/venka/picorv32-vivado-verify/sim/vivado-xsim/work/../run_xsim.tcl
+## run -all
+DBG plusargs: fact=1 multrap=0
+TRACE ifetch 0x00000000: 0x00500293
+TRACE ifetch 0x00000004: 0x00000093
+TRACE ifetch 0x00000008: 0x00508093
+TRACE ifetch 0x0000000c: 0x00508093
+TRACE ifetch 0x00000010: 0x00508093
+TRACE ifetch 0x00000014: 0x00508093
+TRACE ifetch 0x00000018: 0x00008333
+TRACE ifetch 0x0000001c: 0x00000093
+TRACE ifetch 0x00000020: 0x006080b3
+TRACE ifetch 0x00000024: 0x006080b3
+TRACE ifetch 0x00000028: 0x006080b3
+TRACE ifetch 0x0000002c: 0x001080b3
+TRACE ifetch 0x00000030: 0x10102023
+TRACE ifetch 0x00000034: 0x00100213
+TRACE write  0x00000100: 0x00000078 (wstrb=1111)
+TRACE ifetch 0x00000038: 0x10402423
+TRACE ifetch 0x0000003c: 0x0000006f
+XSIM_RESULT: PASS fact (5!=120 via repeated addition)
+$finish called at time : 1690 ns : File "C:/Users/venka/picorv32-vivado-verify/tb/tb_picorv32_xsim.v" Line 169
+## quit
+INFO: [Common 17-206] Exiting xsim at Wed Oct  7 22:59:00 2026...

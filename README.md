@@ -3,8 +3,9 @@
 One-command, self-checking simulation of the PicoRV32 RISC-V core in Xilinx
 Vivado xsim — no RISC-V toolchain, no FPGA board required.
 
-> **Status (P1 in progress):** flow + testbench under implementation; no test
-> has been run yet. Nothing below is claimed until `reports/` holds the logs.
+> **Status (P1 complete 2026-10-07):** `run_xsim.bat all` → `OVERALL: PASS`
+> (sum=15, fact=120, multrap=trap-confirmed), exit code 0, Vivado 2019.2 xsim.
+> Evidence in `reports/`, procedure in `docs/VIVADO_SIM.md`.
 
 ## Upstream & attribution
 - Core RTL: [YosysHQ/picorv32](https://github.com/YosysHQ/picorv32) by Claire Wolf,
